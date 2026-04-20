@@ -45,7 +45,7 @@ app.use(
 );
 app.use(express.json({ limit: '1mb' }));
 
-app.post('/ask', async (req, res) => {
+const askHandler = async (req, res) => {
   try {
     const { query } = req.body ?? {};
 
@@ -66,7 +66,13 @@ app.post('/ask', async (req, res) => {
     console.error('POST /ask error:', err);
     return res.status(500).json({ error: 'Something went wrong' });
   }
-});
+};
+
+const askRouter = express.Router();
+askRouter.post('/ask', askHandler);
+app.use(askRouter);
+// Vercel multi-service routing: backend service receives /backend/ask
+app.use('/backend', askRouter);
 
 app.use((req, res) => {
   res.status(404).json({ error: 'Not found' });
@@ -77,6 +83,10 @@ app.use((err, req, res, _next) => {
   res.status(500).json({ error: 'Internal server error' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server listening on port ${PORT}`);
+  });
+}
+
+module.exports = app;
