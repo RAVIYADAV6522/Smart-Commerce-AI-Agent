@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Redmi 13C 5G (6GB / 128GB)",
+    "price": 10999,
+    "category": "Smartphones",
+    "stock": 42
+  },
+  {
+    "id": 2,
+    "name": "realme Narzo 60x 5G (6GB / 128GB)",
+    "price": 12499,
+    "category": "Smartphones",
+    "stock": 28
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy M15 5G (4GB / 128GB)",
+    "price": 13499,
+    "category": "Smartphones",
+    "stock": 19
+  },
+  {
+    "id": 4,
+    "name": "Apple iPhone 16 Pro (256GB)",
+    "price": 134900,
+    "category": "Smartphones",
+    "stock": 8
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy S24 Ultra (12GB / 256GB)",
+    "price": 124999,
+    "category": "Smartphones",
+    "stock": 6
+  },
+  {
+    "id": 6,
+    "name": "Google Pixel 9 Pro XL (16GB / 256GB)",
+    "price": 109900,
+    "category": "Smartphones",
+    "stock": 11
+  },
+  {
+    "id": 7,
+    "name": "HP Pavilion 15 (Intel Core i5, 16GB RAM, 512GB SSD)",
+    "price": 58990,
+    "category": "Laptops",
+    "stock": 14
+  },
+  {
+    "id": 8,
+    "name": "Apple MacBook Air 13\" (M3, 8GB RAM, 256GB SSD)",
+    "price": 114900,
+    "category": "Laptops",
+    "stock": 9
+  }
+]
