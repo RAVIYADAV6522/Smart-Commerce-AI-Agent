@@ -4,55 +4,867 @@
     "name": "Redmi 13C 5G (6GB / 128GB)",
     "price": 10999,
     "category": "Smartphones",
-    "stock": 42
+    "stock": 42,
+    "highlights": "5G, budget, large battery, good daily screen time, great battery life in its class"
   },
   {
     "id": 2,
     "name": "realme Narzo 60x 5G (6GB / 128GB)",
     "price": 12499,
     "category": "Smartphones",
-    "stock": 28
+    "stock": 28,
+    "highlights": "5G, fast charge, 5000mAh class battery, strong battery for gaming and all-day use"
   },
   {
     "id": 3,
     "name": "Samsung Galaxy M15 5G (4GB / 128GB)",
     "price": 13499,
     "category": "Smartphones",
-    "stock": 19
+    "stock": 19,
+    "highlights": "5G, Samsung M-series, often picked for all-day battery and efficiency, 6000mAh style endurance"
   },
   {
     "id": 4,
     "name": "Apple iPhone 16 Pro (256GB)",
     "price": 134900,
     "category": "Smartphones",
-    "stock": 8
+    "stock": 8,
+    "highlights": "Pro cameras, A18 chip, all-day battery for typical use; not the longest mAh, premium efficiency"
   },
   {
     "id": 5,
     "name": "Samsung Galaxy S24 Ultra (12GB / 256GB)",
     "price": 124999,
     "category": "Smartphones",
-    "stock": 6
+    "stock": 6,
+    "highlights": "Flagship, S Pen, 5000mAh large battery, among the best battery options in the premium line"
   },
   {
     "id": 6,
     "name": "Google Pixel 9 Pro XL (16GB / 256GB)",
     "price": 109900,
     "category": "Smartphones",
-    "stock": 11
+    "stock": 11,
+    "highlights": "Tensor G4, best Pixel cameras, very good smart battery and adaptive power features"
   },
   {
     "id": 7,
     "name": "HP Pavilion 15 (Intel Core i5, 16GB RAM, 512GB SSD)",
     "price": 58990,
     "category": "Laptops",
-    "stock": 14
+    "stock": 14,
+    "highlights": "15-inch full-size, everyday productivity, long battery for work and study sessions"
   },
   {
     "id": 8,
     "name": "Apple MacBook Air 13\" (M3, 8GB RAM, 256GB SSD)",
     "price": 114900,
     "category": "Laptops",
-    "stock": 9
+    "stock": 9,
+    "highlights": "M3 Apple Silicon, silent fanless design, all-day real-world battery, excellent per-watt performance"
+  },
+  {
+    "id": 9,
+    "name": "Philips BT3203/15 cordless beard trimmer (USB charge)",
+    "price": 999,
+    "category": "Trimmers",
+    "stock": 80,
+    "highlights": "20 length settings, skin-friendly steel blades, quick charge, shower-safe body trimmer for daily grooming"
+  },
+  {
+    "id": 10,
+    "name": "Mi by Xiaomi cordless trimmer 2C (40 length settings)",
+    "price": 1199,
+    "category": "Trimmers",
+    "stock": 70,
+    "highlights": "Type-C charging, travel lock, IPX7 washable head, value pick for stubble to short beard"
+  },
+  {
+    "id": 11,
+    "name": "Syska HT200U UltraTrim USB trimmer (black/silver)",
+    "price": 799,
+    "category": "Trimmers",
+    "stock": 95,
+    "highlights": "Up to 90 min use, self-sharpening blades, compact design for first-time users"
+  },
+  {
+    "id": 12,
+    "name": "Havells BT9005 rechargeable beard trimmer",
+    "price": 1450,
+    "category": "Trimmers",
+    "stock": 45,
+    "highlights": "Titanium coated blades, LED indicator, 19 length Combs, even trim for thick beard"
+  },
+  {
+    "id": 13,
+    "name": "Braun MGK3221 6-in-1 trimming kit (beard + ear/nose precision)",
+    "price": 2499,
+    "category": "Trimmers",
+    "stock": 32,
+    "highlights": "Multi-groom face and body, German design blades, all-in-one kit for home styling"
+  },
+  {
+    "id": 14,
+    "name": "Lifelong LLPCM05 cordless hair & beard trimmer (USB)",
+    "price": 649,
+    "category": "Trimmers",
+    "stock": 60,
+    "highlights": "Lightweight, budget option for students, decent battery for weekly trims"
+  },
+  {
+    "id": 15,
+    "name": "Vega SmartOne Series VHTH-10 trimmer (LED display)",
+    "price": 1899,
+    "category": "Trimmers",
+    "stock": 40,
+    "highlights": "Smart lock, 120 min runtime, digital length readout for power users"
+  },
+  {
+    "id": 16,
+    "name": "Panasonic ER-GB80 wet/dry body & beard trimmer (waterproof)",
+    "price": 3299,
+    "category": "Trimmers",
+    "stock": 25,
+    "highlights": "Wet & dry, precision dial 45 step, good for thick growth and under-shower use"
+  },
+  {
+    "id": 17,
+    "name": "BabylissMEN 11-in-1 multigroom trimmer",
+    "price": 4099,
+    "category": "Trimmers",
+    "stock": 18,
+    "highlights": "Pro styling attachments, long battery, salon-style detail cutting at home"
+  },
+  {
+    "id": 18,
+    "name": "realme RMT121 trimmer 40 settings (Type-C, fast charge)",
+    "price": 999,
+    "category": "Trimmers",
+    "stock": 75,
+    "highlights": "Slick design, low vibration, even trim across jawline, popular online pick"
+  },
+  {
+    "id": 19,
+    "name": "LG 7 kg 5 star semi-automatic top load washing machine (P7020NGAY)",
+    "price": 12990,
+    "category": "Washing Machine",
+    "stock": 22,
+    "highlights": "5 star energy, 3 programs, great for bachelors and small families, durable plastic drum"
+  },
+  {
+    "id": 20,
+    "name": "Whirlpool 7.5 kg 5 star semi-automatic (grey, ACE 7.5 TRB)",
+
+    "price": 13950,
+    "category": "Washing Machine",
+    "stock": 20,
+    "highlights": "Turbodry, large wash tub, rust-proof body, strong spin for monsoon drying"
+  },
+  {
+    "id": 21,
+    "name": "IFB 6 kg 5 star front load washing machine (Diva SX)",
+    "price": 22990,
+    "category": "Washing Machine",
+    "stock": 15,
+    "highlights": "Cradle wash for silks, crescent moon drum, built-in heater, compact city flats"
+  },
+  {
+    "id": 22,
+    "name": "Samsung 8 kg 5 star fully automatic top load (WA80T4560BUTL)",
+    "price": 19990,
+    "category": "Washing Machine",
+    "stock": 18,
+    "highlights": "Ecobubble, digital inverter, less tangling, smart diagnosis via app in supported models"
+  },
+  {
+    "id": 23,
+    "name": "Bosch 6 kg 5 star front load (WLJ20060IN, anti-vibration design)",
+    "price": 25990,
+    "category": "Washing Machine",
+    "stock": 12,
+    "highlights": "German build quality, anti-wrinkle feature, good for workwear and delicates"
+  },
+  {
+    "id": 24,
+    "name": "Haier 6.2 kg 5 star fully automatic top load (affordable line)",
+    "price": 11490,
+    "category": "Washing Machine",
+    "stock": 28,
+    "highlights": "Low entry price, simple controls, 8 year motor warranty in many promos"
+  },
+  {
+    "id": 25,
+    "name": "Godrej 6 kg 5 star top load (fully automatic, compact)",
+    "price": 12499,
+    "category": "Washing Machine",
+    "stock": 24,
+    "highlights": "Active soak, child lock, good service network in India"
+  },
+  {
+    "id": 26,
+    "name": "Panasonic 6 kg 5 star front load (NA-106MC2L01)",
+    "price": 23900,
+    "category": "Washing Machine",
+    "stock": 10,
+    "highlights": "Gentle on fabrics, 15+ wash programs, ideal for daily cotton + mixed loads"
+  },
+  {
+    "id": 27,
+    "name": "Croma 6.5 kg 4 star top load (house brand, value pricing)",
+    "price": 10499,
+    "category": "Washing Machine",
+    "stock": 16,
+    "highlights": "Mall/online easy warranty, no-frill automatic wash, starter machine"
+  },
+  {
+    "id": 28,
+    "name": "Voltas Beko 7 kg 5 star fl fully automatic (WFL70MRRTY)",
+    "price": 18990,
+    "category": "Washing Machine",
+    "stock": 14,
+    "highlights": "Hygienic 90°C wash, pet hair friendly cycle on select models, European tech"
+  },
+  {
+    "id": 29,
+    "name": "Lloyd 7.5 kg 5 star fl washing machine (inverter, steam wash)",
+    "price": 21499,
+    "category": "Washing Machine",
+    "stock": 11,
+    "highlights": "Steam hygiene, large door opening, even spin for heavy towels"
+  },
+  {
+    "id": 30,
+    "name": "Havells HD3151 1200W foldable hair dryer (ion care)",
+    "price": 1299,
+    "category": "Hair Dryer",
+    "stock": 55,
+    "highlights": "Cool shot, 3 heat, concentrator nozzle, good for home styling on a budget"
+  },
+  {
+    "id": 31,
+    "name": "Philips BHD308/00 ThermoProtect 1600W hair dryer",
+    "price": 1799,
+    "category": "Hair Dryer",
+    "stock": 48,
+    "highlights": "Even heat, reduces overheating, trusted brand, lightweight daily use"
+  },
+  {
+    "id": 32,
+    "name": "Vega VHDH-20 Power Series 2000W professional dryer",
+    "price": 999,
+    "category": "Hair Dryer",
+    "stock": 62,
+    "highlights": "Concentrator + diffuser, cool shot, fast drying thick hair, salon feel"
+  },
+  {
+    "id": 33,
+    "name": "Dyson Supersonic hair dryer (blue/copper) — refurbed grade A",
+    "price": 28900,
+    "category": "Hair Dryer",
+    "stock": 6,
+    "highlights": "Intelligent heat control, air multiplier, very fast dry with less heat damage"
+  },
+  {
+    "id": 34,
+    "name": "Syska HD1610 1200W hair dryer (teal, compact travel)",
+    "price": 599,
+    "category": "Hair Dryer",
+    "stock": 90,
+    "highlights": "Folds at handle, dual heat, best pocket-friendly back-up dryer"
+  },
+  {
+    "id": 35,
+    "name": "Panasonic EH-ND12 1000W hair dryer (turbodry, pink/white)",
+    "price": 799,
+    "category": "Hair Dryer",
+    "stock": 70,
+    "highlights": "Compact, reliable motor, 3 heat, gentle on fine hair for students"
+  },
+  {
+    "id": 36,
+    "name": "Bosch PHD1100B hair dryer 1100W (ergonomic handle)",
+    "price": 1490,
+    "category": "Hair Dryer",
+    "stock": 35,
+    "highlights": "Sturdy build, overheat cut-off, even airflow, European safety standards"
+  },
+  {
+    "id": 37,
+    "name": "Remington D3015 2200W ionic hair dryer (diffuser kit)",
+    "price": 2199,
+    "category": "Hair Dryer",
+    "stock": 28,
+    "highlights": "Ionic frizz control, quick dry curls and waves, step-up from basic dryers"
+  },
+  {
+    "id": 38,
+    "name": "AGARO HD-1214 1400W professional styler (black)",
+    "price": 1099,
+    "category": "Hair Dryer",
+    "stock": 50,
+    "highlights": "Styling nozzle, cool air lock, value pick for wavy/straight looks"
+  },
+  {
+    "id": 39,
+    "name": "Wahl 5439-024 Super Dry Pro 2000W hair dryer",
+    "price": 1999,
+    "category": "Hair Dryer",
+    "stock": 22,
+    "highlights": "Salon airflow, long cord, great for long hair, trusted by stylists in training"
+  },
+  {
+    "id": 40,
+    "name": "Mi Ionic Hair Dryer H500 (50 million ions, 1800W)",
+    "price": 2999,
+    "category": "Hair Dryer",
+    "stock": 30,
+    "highlights": "NTC smart temp, magnetic nozzle, premium finish under ₹3K segment"
+  },
+  {
+    "id": 41,
+    "name": "IFB 20 L convection microwave (20BC4, black)",
+    "price": 10990,
+    "category": "Microwave",
+    "stock": 25,
+    "highlights": "Grill + convection, starter baking and reheating, child lock, 24 auto cook"
+  },
+  {
+    "id": 42,
+    "name": "LG 28 L charcoal convection microwave (MC2886Brum)",
+    "price": 18990,
+    "category": "Microwave",
+    "stock": 12,
+    "highlights": "Diet fry mode, rotisserie style cooking, tandoor on countertop for Indian food"
+  },
+  {
+    "id": 43,
+    "name": "Samsung 23 L solo microwave (MS23K3513AK/TL)",
+    "price": 6790,
+    "category": "Microwave",
+    "stock": 40,
+    "highlights": "Ceramic inside, no turntable wobble, easy clean, ideal for reheat and simple cooking"
+  },
+  {
+    "id": 44,
+    "name": "Panasonic 20 L grill microwave (NN-GT221W)",
+    "price": 9990,
+    "category": "Microwave",
+    "stock": 20,
+    "highlights": "Vapor clean, 800W class power, defrost to grill in one box"
+  },
+  {
+    "id": 45,
+    "name": "Whirlpool 20 L magicook convection (MagiCook classic)",
+    "price": 11290,
+    "category": "Microwave",
+    "stock": 18,
+    "highlights": "6th sense weight sensor on select series, even baking for cakes"
+  },
+  {
+    "id": 46,
+    "name": "Godrej 19 L solo microwave (GME 194 CP1, blue dial)",
+    "price": 5490,
+    "category": "Microwave",
+    "stock": 33,
+    "highlights": "Basic reheating, compact for PG rooms, 3 year magnetron warranty in promos"
+  },
+  {
+    "id": 47,
+    "name": "Bosch 28 L series 4 convection (CMG644BB1) — high capacity",
+    "price": 24900,
+    "category": "Microwave",
+    "stock": 8,
+    "highlights": "Even heat distribution, pro baking modes, for serious home bakers"
+  },
+  {
+    "id": 48,
+    "name": "Croma 20 L solo microwave (value line, 700W)",
+    "price": 4990,
+    "category": "Microwave",
+    "stock": 22,
+    "highlights": "Mall support, 5 year magnetron, student friendly price"
+  },
+  {
+    "id": 49,
+    "name": "Haier 20 L solo microwave (HIL2001CSPH, silver)",
+    "price": 5299,
+    "category": "Microwave",
+    "stock": 28,
+    "highlights": "Quick defrost, 35 auto menus, even heating milk and dal"
+  },
+  {
+    "id": 50,
+    "name": "Morphy Richards 20 L 20MBG convection (black)",
+    "price": 9999,
+    "category": "Microwave",
+    "stock": 15,
+    "highlights": "Mirror finish door, rotisserie optional kit, even browning for snacks"
+  },
+  {
+    "id": 51,
+    "name": "Bajaj 20 L MTX 2010 solo microwave (white, affordable)",
+    "price": 4699,
+    "category": "Microwave",
+    "stock": 45,
+    "highlights": "Jog wheel timer, 5 power levels, long-lasting Indian service reach"
+  },
+  {
+    "id": 52,
+    "name": "Dyson Hot+Cool HP07 air purifier (HEPA+activated carbon) — open box",
+    "price": 39900,
+    "category": "Air Purifier",
+    "stock": 5,
+    "highlights": "Captures PM2.5, formaldehyde sensor, year-round air comfort in metros"
+  },
+  {
+    "id": 53,
+    "name": "Philips AC3256/20 series 3000i air purifier (CADR room ~48 m²)",
+    "price": 22990,
+    "category": "Air Purifier",
+    "stock": 14,
+    "highlights": "VitaShield IPS, AeraSense, night mode, great for baby rooms"
+  },
+  {
+    "id": 54,
+    "name": "Mi Air Purifier 3 (OLED, high CADR, smart app)",
+    "price": 9999,
+    "category": "Air Purifier",
+    "stock": 30,
+    "highlights": "HEPA, laser particle sensor, replaceable filter alerts, value segment leader"
+  },
+  {
+    "id": 55,
+    "name": "Sharp FP-J40M plasmacluster air purifier (room ~30 m²)",
+    "price": 14990,
+    "category": "Air Purifier",
+    "stock": 18,
+    "highlights": "Plasmacluster ions, haze mode, good for small apartments"
+  },
+  {
+    "id": 56,
+    "name": "Honeywell HAC25M room air purifier (pre + HEPA + carbon)",
+    "price": 7990,
+    "category": "Air Purifier",
+    "stock": 25,
+    "highlights": "3D airflow, 4 fan speeds, budget pick for AQI days"
+  },
+  {
+    "id": 57,
+    "name": "Coway AP-1009 HEPA air purifier (green air)",
+    "price": 18990,
+    "category": "Air Purifier",
+    "stock": 10,
+    "highlights": "Long filter life, low noise, premium segment Korean tech"
+  },
+  {
+    "id": 58,
+    "name": "Croma room air purifier 35 W (H13 HEPA) — in-house",
+    "price": 6490,
+    "category": "Air Purifier",
+    "stock": 20,
+    "highlights": "Mall service, 3-in-1 filter, compact bedroom unit"
+  },
+  {
+    "id": 59,
+    "name": "Blue Star Air Purifier BS-AP300DAI 300 sq ft coverage",
+    "price": 9990,
+    "category": "Air Purifier",
+    "stock": 12,
+    "highlights": "VOC control, 5 stage, trusted AC brand air quality line"
+  },
+  {
+    "id": 60,
+    "name": "Voltas Beko pure air 300 HEPA+UV (medium room)",
+    "price": 11290,
+    "category": "Air Purifier",
+    "stock": 9,
+    "highlights": "UV inactivate optional path, 4 fan modes, even Delhi winter smog"
+  },
+  {
+    "id": 61,
+    "name": "Eureka Forbes Aeroguard AP 500 HEPA+UV+ionic breeze",
+    "price": 11990,
+    "category": "Air Purifier",
+    "stock": 16,
+    "highlights": "Indian R&D, strong service, multi-stage in living rooms"
+  },
+  {
+    "id": 62,
+    "name": "Panasonic F-PXF35MKD nanoe air purifier (compact, quiet)",
+    "price": 13990,
+    "category": "Air Purifier",
+    "stock": 11,
+    "highlights": "Nanoe moisture, 20 m², sleep low noise, Japan tech"
+  },
+  {
+    "id": 63,
+    "name": "Dyson V8 Absolute+ cordless stick vacuum (HEPA, multi-floor)",
+    "price": 32900,
+    "category": "Vacuum Cleaner",
+    "stock": 7,
+    "highlights": "Direct drive, pet hair, transforms to hand vac, 40 min run time"
+  },
+  {
+    "id": 64,
+    "name": "Eureka Forbes Quick Clean DX 1200W bagless vacuum (red/black)",
+    "price": 2990,
+    "category": "Vacuum Cleaner",
+    "stock": 55,
+    "highlights": "Variable suction, long cord, classic Indian canister, carpet + floor"
+  },
+  {
+    "id": 65,
+    "name": "Philips FC9352/01 bagless 1900W PowerPro compact",
+    "price": 9990,
+    "category": "Vacuum Cleaner",
+    "stock": 22,
+    "highlights": "PowerCyclone 5, anti-allergen HEPA, easy empty dust"
+  },
+  {
+    "id": 66,
+    "name": "Mi G10 cordless vacuum 350W (AW display, 4 heads) — value flagship",
+    "price": 19999,
+    "category": "Vacuum Cleaner",
+    "stock": 18,
+    "highlights": "High suction, tangle free brush, great for hard floors in Indian homes"
+  },
+  {
+    "id": 67,
+    "name": "Bosch BGS1U1900 ProSilence 59 bagless canister 900W (quiet run)",
+    "price": 14990,
+    "category": "Vacuum Cleaner",
+    "stock": 12,
+    "highlights": "Lower noise, universal floor head, HEPA, EU energy design"
+  },
+  {
+    "id": 68,
+    "name": "Karcher VC 3 canister multi-cyclone vacuum 700W (yellow)",
+
+    "price": 8990,
+    "category": "Vacuum Cleaner",
+    "stock": 16,
+    "highlights": "Washable filter, 3 l dust, pro cleaning brand home line"
+  },
+  {
+    "id": 69,
+    "name": "Agaro Regency stick vacuum 600W 2-in-1 (lightweight, corded)",
+    "price": 3199,
+    "category": "Vacuum Cleaner",
+    "stock": 30,
+    "highlights": "Converts to handheld, HEPA, budget stick for daily crumbs"
+  },
+  {
+    "id": 70,
+    "name": "Eureka Forbes Super Clean handheld vacuum 800W (sofa & car)",
+
+    "price": 2490,
+    "category": "Vacuum Cleaner",
+    "stock": 40,
+    "highlights": "Compact, crevice tool, car seat and sofa dust"
+  },
+  {
+    "id": 71,
+    "name": "Black+Decker AV1205 dustbuster 12V cordless handheld",
+    "price": 4290,
+    "category": "Vacuum Cleaner",
+    "stock": 24,
+    "highlights": "Quick clean spills, no cord drag, 15 min per charge for messes"
+  },
+  {
+    "id": 72,
+    "name": "Prestige Typhoon 2.0 1200W dry vacuum (blue canister)",
+
+    "price": 3490,
+    "category": "Vacuum Cleaner",
+    "stock": 35,
+    "highlights": "Blow function, 5L bagless, value kitchen + floor sweeps"
+  },
+  {
+    "id": 73,
+    "name": "Croma 1600W bagless canister (house brand) — 2 L dust",
+    "price": 4990,
+    "category": "Vacuum Cleaner",
+    "stock": 14,
+    "highlights": "Mall support, 3 stage filter, mid-segment canister"
+  },
+  {
+    "id": 74,
+    "name": "Bajaj 1440W Life Care vacuum cleaner (mattress + blower)",
+    "price": 3290,
+    "category": "Vacuum Cleaner",
+    "stock": 38,
+    "highlights": "Wide service, blower mode for leaves on balcony, all-rounder canister"
+  },
+  {
+    "id": 75,
+    "name": "Philips GC1920/28 1100W steam iron (linished soleplate, blue)",
+    "price": 1099,
+    "category": "Iron",
+    "stock": 100,
+    "highlights": "Drip stop, 150 g steam boost, long cord, daily school uniform iron"
+  },
+  {
+    "id": 76,
+    "name": "Bajaj DX 7 1000W light weight dry iron (white, ISI mark)",
+    "price": 599,
+    "category": "Iron",
+    "stock": 120,
+    "highlights": "Super value, 360° swivel, safety thermal fuse, hostels and dorms"
+  },
+  {
+    "id": 77,
+    "name": "Havells Fabio 1250W steam iron (non-stick, purple)",
+    "price": 1399,
+    "category": "Iron",
+    "stock": 55,
+    "highlights": "25 g/min steam, 150 ml tank, self cleaning, even steam on cotton"
+  },
+  {
+    "id": 78,
+    "name": "Usha 3412 1300W steam iron (Aqua weeps anti-drip) — brown",
+    "price": 1290,
+    "category": "Iron",
+    "stock": 48,
+    "highlights": "PTFE soleplate, vertical steam for curtains, Indian brand support"
+  },
+  {
+    "id": 79,
+    "name": "Black+Decker D2530W auto shut-off 2200W steam iron (grey)",
+    "price": 2199,
+    "category": "Iron",
+    "stock": 32,
+    "highlights": "30 g/min variable steam, auto-off safety, for heavy wrinkle workwear"
+  },
+  {
+    "id": 80,
+    "name": "PHILIPS PerfectCare 3000 series 2400W steam gen iron (2 bar)",
+    "price": 8990,
+    "category": "Iron",
+    "stock": 8,
+    "highlights": "No temperature dial needed, 2x faster, ideal for saris and formals"
+  },
+  {
+    "id": 81,
+    "name": "Morphy Richards Super Glide 2000W steam iron (turquoise)",
+    "price": 1790,
+    "category": "Iron",
+    "stock": 40,
+    "highlights": "Vertical steam, ceramic soleplate, fast heat even on low voltage"
+  },
+  {
+    "id": 82,
+    "name": "Syska 1234 1200W dry iron (auto shut-off) — red/black",
+    "price": 699,
+    "category": "Iron",
+    "stock": 90,
+    "highlights": "Weirdest budget safety shut-off, non-stick, student rooms"
+  },
+  {
+    "id": 83,
+    "name": "Prestige Magic steam iron 1200W (indigo) — 3 in 1",
+    "price": 1190,
+    "category": "Iron",
+    "stock": 60,
+    "highlights": "Spray+steam+dry modes, 360° cord, TTK service network"
+  },
+  {
+    "id": 84,
+    "name": "Bosch TDA1024210 2800W Sensixx'x steam iron (red)",
+    "price": 3490,
+    "category": "Iron",
+    "stock": 15,
+    "highlights": "Palladium-glissée, precision tip, for crisp shirts every morning"
+  },
+  {
+    "id": 85,
+    "name": "Croma 1600W steam iron (auto-off, 250 ml) — in-house",
+    "price": 999,
+    "category": "Iron",
+    "stock": 45,
+    "highlights": "Mall brand warranty, anti-calc, daily driver under ₹1K on sale"
+  },
+  {
+    "id": 86,
+    "name": "Philips HD9200/21 4.1 L air fryer (Rapid air, 1400W black)",
+    "price": 7990,
+    "category": "Air Fryer",
+    "stock": 30,
+    "highlights": "7 presets, 90% less oil than deep fry for snacks, 2 year world warranty in store"
+  },
+  {
+    "id": 87,
+    "name": "Ninja AF101 air fryer 3.8 L (grey, 1500W US import plug adapter)",
+    "price": 12990,
+    "category": "Air Fryer",
+    "stock": 9,
+    "highlights": "4 programs, crisper plate, even browning for frozen fries"
+  },
+  {
+    "id": 88,
+    "name": "AGARO Regency 4.5 L air fryer (digital, 7 presets)",
+    "price": 4990,
+    "category": "Air Fryer",
+    "stock": 42,
+    "highlights": "Value king online, 1500W, preheat, family batch samosas"
+  },
+  {
+    "id": 89,
+    "name": "Prestige PAF 6.0 4.0 L PAF 4.0 (black) air fryer",
+    "price": 5490,
+    "category": "Air Fryer",
+    "stock": 28,
+    "highlights": "Preset Indian snacks, 30 min timer, TTK after-sales"
+  },
+  {
+    "id": 90,
+    "name": "Havells Prolife Grande 4 L digital air fryer (aero crisp)",
+    "price": 6990,
+    "category": "Air Fryer",
+    "stock": 20,
+    "highlights": "8 presets, 85% less oil claim, 4 year on-site in promos"
+  },
+  {
+    "id": 91,
+    "name": "IFB 4.2 L air fryer (AFD42, 1500W, rotisserie optional)",
+    "price": 9990,
+    "category": "Air Fryer",
+    "stock": 11,
+    "highlights": "Even 360 air flow, bakes and air fries, IFB build quality"
+  },
+  {
+    "id": 92,
+    "name": "Cosori CP158-AF 5.5 L app smart air fryer (wifi, black)",
+    "price": 11990,
+    "category": "Air Fryer",
+    "stock": 8,
+    "highlights": "100+ recipes, shake reminder, large basket for 4+ people"
+  },
+  {
+    "id": 93,
+    "name": "Bajaj MAF 4.2 L 1500W air fryer (black/silver) — 8 preset",
+    "price": 4490,
+    "category": "Air Fryer",
+    "stock": 50,
+    "highlights": "Widest service, 30 min, temp 80-200°C, reheat tikkas"
+  },
+  {
+    "id": 94,
+    "name": "Inalsa Nutrifry 4.2 L 1400W air fryer (red)",
+    "price": 3990,
+    "category": "Air Fryer",
+    "stock": 35,
+    "highlights": "Budget 4+ liter, rapid air, daily evening snacks in metros"
+  },
+  {
+    "id": 95,
+    "name": "Panasonic 4.2 L 1500W air fryer (black, 8 menu)",
+    "price": 8990,
+    "category": "Air Fryer",
+    "stock": 14,
+    "highlights": "Ceramic style basket, easy clean, even heat ring design"
+  },
+  {
+    "id": 96,
+    "name": "LG 4.0 L 1400W air fryer (SJ series, matte black) — 10 preset",
+    "price": 9990,
+    "category": "Air Fryer",
+    "stock": 10,
+    "highlights": "ThinQ app on select, dual heating, pro crisp layer"
+  },
+  {
+    "id": 97,
+    "name": "Xiaomi Smart Air Fryer 3.5 L (OLED, app, 1500W)",
+    "price": 5990,
+    "category": "Air Fryer",
+    "stock": 25,
+    "highlights": "100+ smart recipes, low-oil, compact kitchen fit"
+  },
+  {
+    "id": 98,
+    "name": "Croma 50 inch 4K UHD smart LED (Android TV, Dolby Audio)",
+    "price": 28990,
+    "category": "LED TV",
+    "stock": 12,
+    "highlights": "4K, HDR10, 20W speakers, in-built Chromecast, value big screen"
+  },
+  {
+    "id": 99,
+    "name": "Samsung 55 inch 4K Crystal UHD smart TV (UA55AUE60AKLXXL) — 2023 class",
+    "price": 42990,
+    "category": "LED TV",
+    "stock": 8,
+    "highlights": "Crystal processor, PurColor, Tizen, smooth OTT in living room"
+  },
+  {
+    "id": 100,
+    "name": "LG 43 inch 4K UHD webOS smart TV (α5 Gen5) — thin bezel",
+    "price": 31990,
+    "category": "LED TV",
+    "stock": 15,
+    "highlights": "webOS, magic remote in bundle promos, Game Optimizer, Filmmaker mode"
+  },
+  {
+    "id": 101,
+    "name": "Sony Bravia 55 X75L 4K Google TV (4K X-Reality Pro)",
+    "price": 52990,
+    "category": "LED TV",
+    "stock": 6,
+    "highlights": "X1, Motionflow XR, Google TV, best motion for sports"
+  },
+  {
+    "id": 102,
+    "name": "OnePlus 50 Y1S Pro 4K Android QLED (gamma color engine)",
+    "price": 35999,
+    "category": "LED TV",
+    "stock": 10,
+    "highlights": "QLED, 30W Co-tuned Dynaudio, HDR10+, gamer mode low lag"
+  },
+  {
+    "id": 103,
+    "name": "TCL 55 inch 4K Google TV (C645 series QLED mini-LED class)",
+    "price": 39990,
+    "category": "LED TV",
+    "stock": 7,
+    "highlights": "Dolby Vision IQ, IMAX enhanced on select, game master pro"
+  },
+  {
+    "id": 104,
+    "name": "Xiaomi TV X Pro 50\" 4K (Dolby Vision, 40W speakers) — 2024 line",
+    "price": 33999,
+    "category": "LED TV",
+    "stock": 20,
+    "highlights": "PatchWall, dual band Wi-Fi, OTT first UI in India, aggressive pricing"
+  },
+  {
+    "id": 105,
+    "name": "Videocon 32 inch HD ready LED (basic, wall mount) — value guest room",
+    "price": 8990,
+    "category": "LED TV",
+    "stock": 25,
+    "highlights": "2 HDMI, USB movie, 20W, backup TV for parent room"
+  },
+  {
+    "id": 106,
+    "name": "Panasonic 43 inch 4K Android TV (TH-43FX650DX, 40W)",
+    "price": 27490,
+    "category": "LED TV",
+    "stock": 11,
+    "highlights": "Hcx processor on series, 4K HDR, even panel for OTT binges"
+  },
+  {
+    "id": 107,
+    "name": "Haier 55 inch 4K Google TV (K800 series Bezel free)",
+    "price": 34990,
+    "category": "LED TV",
+    "stock": 9,
+    "highlights": "MEMC, HDR10, hands-free Google on select, voice first homes"
+  },
+  {
+    "id": 108,
+    "name": "Realme 43 inch 4K smart TV (SLED 100% NTSC) — 2021 stock clean",
+    "price": 24999,
+    "category": "LED TV",
+    "stock": 14,
+    "highlights": "SLED tech, 24W quad speakers, Chroma boost picture"
   }
 ]

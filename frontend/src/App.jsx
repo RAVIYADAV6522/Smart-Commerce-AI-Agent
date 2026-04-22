@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react'
 import { ChatWindow } from './components/ChatWindow'
 import { InputBox } from './components/InputBox'
+import { ThemeToggle } from './components/ThemeToggle.jsx'
 
 const API_URL =
   import.meta.env.VITE_API_URL || 'http://localhost:3000'
@@ -28,6 +29,7 @@ export default function App() {
       const res = await fetch(`${API_URL}/ask`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
         body: JSON.stringify({ query: trimmed }),
       })
 
@@ -74,19 +76,24 @@ export default function App() {
 
   return (
     <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
-      <header className="shrink-0 border-b border-slate-800 bg-slate-950/80 px-4 py-4 backdrop-blur-md sm:px-6">
+      <header className="shrink-0 border-b border-slate-200/90 bg-gradient-to-b from-white to-slate-50/95 px-4 py-4 shadow-sm backdrop-blur-md dark:border-slate-800 dark:from-slate-950 dark:to-slate-950/95 dark:shadow-none sm:px-6">
         <div className="mx-auto flex max-w-3xl items-center justify-between gap-4">
-          <div>
-            <h1 className="text-lg font-semibold tracking-tight text-white">
+          <div className="min-w-0">
+            <h1 className="text-lg font-semibold tracking-tight text-slate-900 dark:text-white">
               Smart Commerce
             </h1>
-            <p className="text-xs text-slate-500">AI shopping assistant</p>
+            <p className="truncate text-xs text-slate-500 dark:text-slate-400">
+              AI shopping assistant — phones, laptops & home electronics
+            </p>
           </div>
-          {busy && (
-            <span className="text-xs font-medium text-emerald-400/90">
-              Thinking…
-            </span>
-          )}
+          <div className="flex shrink-0 items-center gap-3">
+            {busy && (
+              <span className="hidden text-xs font-medium text-emerald-600 dark:text-emerald-400/90 sm:inline">
+                Thinking…
+              </span>
+            )}
+            <ThemeToggle />
+          </div>
         </div>
       </header>
 
