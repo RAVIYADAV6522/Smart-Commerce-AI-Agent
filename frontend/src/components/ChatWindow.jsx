@@ -29,15 +29,15 @@ function CartPanel({ items }) {
   if (!Array.isArray(items) || items.length === 0) return null
   const total = sumCartValue(items)
   return (
-    <div className="mt-3 rounded-2xl border border-slate-200 bg-slate-50/90 p-3 dark:border-slate-600/60 dark:bg-slate-950/60">
-      <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+    <div className="mt-3 rounded-2xl border border-violet-200/50 bg-gradient-to-br from-violet-50/90 to-cyan-50/40 p-3 dark:border-violet-500/20 dark:from-slate-900/80 dark:to-slate-900/60">
+      <p className="text-xs font-semibold uppercase tracking-wide text-violet-600/80 dark:text-violet-300/90">
         Your cart ({items.length} {items.length === 1 ? 'item' : 'items'})
       </p>
       <ul className="mt-2 space-y-1 text-xs text-slate-600 dark:text-slate-300">
         {items.map((p, i) => (
           <li
             key={`${i}-${p.id}`}
-            className="flex justify-between gap-2 border-b border-slate-200/90 pb-1 last:border-0 dark:border-slate-800/80"
+            className="flex justify-between gap-2 border-b border-violet-200/40 pb-1 last:border-0 dark:border-slate-700/80"
           >
             <span className="truncate">{p.name}</span>
             <span className="shrink-0 font-medium text-emerald-600 dark:text-emerald-400/90">
@@ -58,8 +58,8 @@ function OrderPanel({ order }) {
   if (!order || !order.id) return null
   const lineItems = Array.isArray(order.lineItems) ? order.lineItems : []
   return (
-    <div className="mt-3 rounded-2xl border border-emerald-200/90 bg-emerald-50/90 p-3 dark:border-emerald-800/50 dark:bg-emerald-950/30">
-      <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-500/80">
+    <div className="mt-3 rounded-2xl border border-emerald-300/50 bg-gradient-to-br from-emerald-50/95 to-cyan-50/50 p-3 dark:border-emerald-500/30 dark:from-emerald-950/50 dark:to-slate-900/50">
+      <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-400/90">
         Order placed
       </p>
       <p className="mt-1 text-sm text-slate-900 dark:text-white">Order {order.id}</p>
@@ -93,19 +93,19 @@ function ProductCards({ products, onAddToCart, busy }) {
       {products.map((p) => (
         <div
           key={p.id}
-          className="rounded-2xl border border-slate-200/90 bg-white/90 p-4 shadow-md shadow-slate-200/40 backdrop-blur-sm dark:border-slate-700/80 dark:bg-slate-900/80 dark:shadow-black/20"
+          className="card-3d group rounded-2xl border border-slate-200/80 bg-gradient-to-b from-white to-slate-50/90 p-4 shadow-[0_12px_40px_-12px_rgba(109,40,217,0.2)] dark:border-slate-600/50 dark:from-slate-800/95 dark:to-slate-900/90 dark:shadow-[0_16px_40px_-12px_rgba(0,0,0,0.5)]"
         >
           <p className="text-sm font-semibold text-slate-900 dark:text-white">{p.name}</p>
           {typeof p.category === 'string' && p.category.trim() !== '' && (
-            <p className="mt-0.5 text-[11px] font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500">
+            <p className="mt-0.5 text-[11px] font-medium uppercase tracking-wide text-violet-500/80 dark:text-violet-300/80">
               {p.category}
             </p>
           )}
-          <p className="mt-1 text-lg font-medium text-emerald-600 dark:text-emerald-400">
+          <p className="mt-1 text-lg font-semibold text-emerald-600 dark:text-emerald-400">
             {formatPrice(p.price)}
           </p>
           {typeof p.highlights === 'string' && p.highlights.trim() !== '' && (
-            <p className="mt-2 line-clamp-2 text-xs leading-snug text-slate-500 dark:text-slate-500">
+            <p className="mt-2 line-clamp-2 text-xs leading-snug text-slate-500 dark:text-slate-400">
               {p.highlights}
             </p>
           )}
@@ -113,7 +113,7 @@ function ProductCards({ products, onAddToCart, busy }) {
             type="button"
             disabled={busy}
             onClick={() => onAddToCart(p.id)}
-            className="mt-3 w-full rounded-xl bg-emerald-500 px-3 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600 disabled:cursor-not-allowed disabled:opacity-50 dark:text-slate-950 dark:hover:bg-emerald-400"
+            className="mt-3 w-full rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 px-3 py-2.5 text-sm font-semibold text-white shadow-[0_5px_0_0] shadow-emerald-800 transition hover:translate-y-0.5 hover:shadow-[0_3px_0_0] hover:shadow-emerald-800 active:translate-y-1.5 active:shadow-none disabled:cursor-not-allowed disabled:opacity-50 disabled:shadow-none dark:from-teal-500 dark:to-cyan-500 dark:text-slate-950 dark:shadow-cyan-900 dark:hover:shadow-cyan-900"
           >
             Add to Cart
           </button>
@@ -135,30 +135,41 @@ export function ChatWindow({ messages, onAddToCart, busy }) {
   return (
     <div
       ref={scrollRef}
-      className="flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto overscroll-y-contain bg-slate-100/50 px-4 py-6 pb-8 dark:bg-transparent sm:px-6 [scroll-padding-bottom:1.5rem]"
+      className="relative z-10 flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto overscroll-y-contain px-4 py-6 pb-8 [scroll-padding-bottom:1.5rem] sm:px-6"
     >
       {messages.length === 0 && (
-        <div className="mx-auto max-w-md rounded-2xl border border-dashed border-slate-300/90 bg-white/60 px-5 py-8 text-center dark:border-slate-600/50 dark:bg-slate-900/40">
-          <p className="text-sm font-medium text-slate-700 dark:text-slate-200">
-            What are you shopping for?
-          </p>
-          <p className="mt-2 text-xs leading-relaxed text-slate-500 dark:text-slate-400">
-            Try “phone under 20k”, “LED TV”, “Samsung washing machine”, or add items with{' '}
-            <span className="font-mono text-slate-600 dark:text-slate-300">add product 1 to cart</span>.
-          </p>
+        <div className="mx-auto w-full max-w-md pt-2">
+          <div className="rounded-2xl bg-gradient-to-br from-violet-500 via-fuchsia-500 to-cyan-500 p-[2px] shadow-[0_20px_60px_-12px_rgba(109,40,217,0.35)]">
+            <div className="card-3d empty-hero relative rounded-[14px] px-5 py-8 text-center">
+              <p className="text-base font-semibold text-slate-800 dark:text-white">
+                What are you shopping for?
+              </p>
+              <p className="mt-3 text-xs leading-relaxed text-slate-600 dark:text-slate-300">
+                Try <span className="font-medium text-violet-600 dark:text-violet-300">“phone under 20k”</span>,{' '}
+                <span className="font-medium text-cyan-600 dark:text-cyan-300">“LED TV”</span>, or{' '}
+                <span className="font-medium text-amber-600 dark:text-amber-300">“Samsung washing machine”</span>
+                — or add with{' '}
+                <code className="rounded bg-slate-200/80 px-1.5 py-0.5 font-mono text-[11px] text-slate-800 dark:bg-slate-800 dark:text-cyan-200">
+                  add product 1 to cart
+                </code>
+                .
+              </p>
+            </div>
+          </div>
         </div>
       )}
-      {messages.map((m) => (
+      {messages.map((m, i) => (
         <div
           key={m.id}
-          className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}
+          style={{ animationDelay: `${Math.min(i, 10) * 0.04}s` }}
+          className={`message-animate flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}
         >
           <div
-            className={`max-w-[min(100%,36rem)] rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
+            className={`max-w-[min(100%,36rem)] rounded-2xl px-4 py-3 text-sm leading-relaxed transition-transform duration-200 ${
               m.role === 'user'
-                ? 'bg-indigo-600 text-white shadow-indigo-900/10 dark:shadow-indigo-950/30'
-                : 'border border-slate-200/90 bg-white text-slate-800 shadow-slate-200/30 dark:border-slate-700/80 dark:bg-slate-900/95 dark:text-slate-100 dark:shadow-black/20'
-            }`}
+                ? 'bg-gradient-to-br from-violet-600 to-fuchsia-600 text-white shadow-[0_12px_32px_-8px_rgba(109,40,217,0.5)] [transform:perspective(800px)] hover:-translate-y-0.5'
+                : 'border border-slate-200/80 bg-white/90 text-slate-800 shadow-[0_12px_40px_-12px_rgba(15,23,42,0.12)] [transform:perspective(1000px)] dark:border-slate-600/50 dark:bg-slate-900/90 dark:text-slate-100 dark:shadow-[0_20px_50px_-15px_rgba(0,0,0,0.45)]'
+            } `}
           >
             {m.role === 'user' ? (
               m.text
